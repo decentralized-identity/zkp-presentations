@@ -1,4 +1,4 @@
-# ZKP Self-Attestations Trust Model
+# ZKP Presentations Trust Model
 
 ## Overview
 
@@ -6,7 +6,7 @@ This document presents a generalized trust model for solutions that enable self-
 
 We call this a "generalized trust model" because it describes the common characteristics, requirements, and assumptions shared by a family of ZKP-based self-attestation protocols. In these protocols, the process by which the trusted authority (the "issuer") signs and issues credentials occurs outside the protocol boundary, yet the protocol is informed by the issuance process to implement a freshness guarantee within the framework of this model. (For example, Anon Aadhaar uses a dedicated endpoint to provide the most recent data.)
 
-This document does not aim to provide a generalized threat model, but highlights key considerations of ZKP self-attestations (for future analysis), while anchoring in standards for generalized threat modeling.  
+This document does not aim to provide a generalized threat model, but highlights key considerations of ZKP presentations (for future analysis), while anchoring in standards for generalized threat modeling.  
 
 **External Standards Alignment**:  
 - Compatibility with W3C Verifiable Credentials (VC) data model.  
@@ -93,8 +93,8 @@ The verifier may require addition verification methods (e.g., checking attribute
 - **Key and Credential Management:** Ongoing procedures (like regular key rotations and credential revocations) ensure that any compromised keys or outdated credentials are promptly invalidated.
 
 ### 4.3 Termination
-- **Invalid Issuer Key:** If an issuer's key is compromised, expires, or is not consistent with the user's credential, the protocol will not generate a proof. The data freshness window provides an upper bound for usage of previously-generated ZKP self-attestations.
-- **Credential Expiration and Revocation:** The issuer is responsible for revoking issued credentials, ensuring discovery of revocation lists, and ensuring availability of credential expiration metadata. If the user's credential is revoked or expired, the protocol will not generate a proof. The data freshness window provides an upper bound for usage of previously-issued ZKP self-attestations.
+- **Invalid Issuer Key:** If an issuer's key is compromised, expires, or is not consistent with the user's credential, the protocol will not generate a proof. The data freshness window provides an upper bound for usage of previously-generated ZKP presentations.
+- **Credential Expiration and Revocation:** The issuer is responsible for revoking issued credentials, ensuring discovery of revocation lists, and ensuring availability of credential expiration metadata. If the user's credential is revoked or expired, the protocol will not generate a proof. The data freshness window provides an upper bound for usage of previously-issued ZKP presentations.
 - **Proof Invalidation:** Any proofs that are stale (i.e., those with freshness data outside the allowed window) or replayed (as detected by the nonce) are rejected by the verifier.
 
 ## 5. Use Cases

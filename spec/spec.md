@@ -1,9 +1,9 @@
-# zkp-self-attestations x.y Editor's Draft
+# zkp-presentations x.y Editor's Draft
 
 **Specification Status:** Pre-Draft
 
 **Latest Draft:**
-[identity.foundation/zkp-self-attestations](https://identity.foundation/zkp-self-attestations)
+[identity.foundation/zkp-presentations](https://identity.foundation/zkp-presentations)
 
 **Ratified Versions:**
 
@@ -13,9 +13,9 @@
 <!-- -->
 
 **Participate:**
-~ [GitHub repo](https://github.com/decentralized-identity/zkp-self-attestations)
-~ [File a bug](https://github.com/decentralized-identity/zkp-self-attestations/issues)
-~ [Commit history](https://github.com/decentralized-identity/zkp-self-attestations/commits/main)
+~ [GitHub repo](https://github.com/decentralized-identity/zkp-presentations)
+~ [File a bug](https://github.com/decentralized-identity/zkp-presentations/issues)
+~ [Commit history](https://github.com/decentralized-identity/zkp-presentations/commits/main)
 
 Except where otherwise noted, this work by the [Decentralized Identity Foundation](https://identity.foundation/) is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
@@ -27,7 +27,7 @@ This is a draft specification being developed within the
 [Decentralized Identity Foundation](https://identity.foundation) (DIF). Design
 work is ongoing, and participants are
 encouraged to open issues or otherwise contribute at [the DIF-hosted github
-repository](https://github.com/decentralized-identity/zkp-self-attestations),
+repository](https://github.com/decentralized-identity/zkp-presentations),
 whether as input to stable versions or as recommendations for future versions.
 
 ## Terminology
