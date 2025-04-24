@@ -9,13 +9,13 @@ Repository for [DIF Crypto WG](https://github.com/decentralized-identity/crypto-
 - [Anon Aadhaar Trust Model](./trust_models/anon-aadhaar.md)
 - [General Trust Model](./trust_models/general_trust_model.md)
 
-## [Latest Editor's Draft](https://identity.foundation/zkp-self-attestations/)
+## [Latest Editor's Draft](https://identity.foundation/zkp-presentations/)
 
 ## Getting Started
 
 ```
-git clone git@github.com:decentralized-identity/zkp-self-attestations.git
-cd zkp-self-attestations
+git clone git@github.com:decentralized-identity/zkp-presentations.git
+cd zkp-presentations
 npm i
 npm run edit
 npx serve build

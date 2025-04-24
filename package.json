@@ -1,12 +1,12 @@
 {
-  "name": "zkp-self-attestations",
-  "description": "DIF zkp-self-attestations specification",
+  "name": "zkp-presentations",
+  "description": "DIF zkp-presentations specification",
   "version": "0.0.1",
-  "homepage": "http://identity.foundation/zkp-self-attestations",
+  "homepage": "http://identity.foundation/zkp-presentations",
   "license": "Apache 2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/decentralized-identity/zkp-self-attestations"
+    "url": "git://github.com/decentralized-identity/zkp-presentations"
   },
   "dependencies": {
     "markdown-it": "^9.1.0",
