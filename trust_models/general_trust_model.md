@@ -2,9 +2,9 @@
 
 ## Overview
 
-This document presents a generalized trust model for solutions that enable self-attestation using zero-knowledge proofs (ZKPs). In such solutions, a client-side device (user/prover) uses a digitally signed credential (issued by a trusted authority) to generate a ZKP that attests to selected identity attributes -- or functions thereof (e.g., proving age is over 18, or that a computed sum exceeds a threshold) -- without revealing the complete underlying data. 
+This document presents a generalized trust model for solutions that enable presentation using zero-knowledge proofs (ZKPs). In such solutions, a client-side device (user/prover) uses a digitally signed credential (issued by a trusted authority) to generate a ZKP that attests to selected identity attributes -- or functions thereof (e.g., proving age is over 18, or that a computed sum exceeds a threshold) -- without revealing the complete underlying data. 
 
-We call this a "generalized trust model" because it describes the common characteristics, requirements, and assumptions shared by a family of ZKP-based self-attestation protocols. In these protocols, the process by which the trusted authority (the "issuer") signs and issues credentials occurs outside the protocol boundary, yet the protocol is informed by the issuance process to implement a freshness guarantee within the framework of this model. (For example, Anon Aadhaar uses a dedicated endpoint to provide the most recent data.)
+We call this a "generalized trust model" because it describes the common characteristics, requirements, and assumptions shared by a family of ZKP-based presentation protocols. In these protocols, the process by which the trusted authority (the "issuer") signs and issues credentials occurs outside the protocol boundary, yet the protocol is informed by the issuance process to implement a freshness guarantee within the framework of this model. (For example, Anon Aadhaar uses a dedicated endpoint to provide the most recent data.)
 
 This document does not aim to provide a generalized threat model, but highlights key considerations of ZKP presentations (for future analysis), while anchoring in standards for generalized threat modeling.  
 
@@ -25,7 +25,7 @@ This document does not aim to provide a generalized threat model, but highlights
 
 ## 1. Participants and Boundaries
 
-![self-attestation-roles](https://github.com/user-attachments/assets/16932727-1965-4719-8a25-426d1711a869)
+![presentation-roles](https://github.com/user-attachments/assets/16932727-1965-4719-8a25-426d1711a869)
 
 ### 1.1 Credential Issuer (Identity Authority) – Outside Protocol Boundary
 - **Role:** The issuer digitally signs and issues credentials that attest to an individual's identity.
@@ -166,8 +166,8 @@ OpenPassport verifies electronic passports’ NFC chip data. Unlike Aadhaar’s 
 - Self Protocol - https://self.xyz/
 - ZkPassport - https://zkpassport.id/
 
-## Appendix: ZKP Self-Attestation Threat Model Considerations
-The threat model for these protocols are similar to that of [W3C Decentralized Identities Threat Model](https://github.com/w3c-cg/threat-modeling/blob/main/models/decentralized-identities.md) -- a general threat model for decentralized identity architectures. ZKP Self-Attestation implementations should consider:
+## Appendix: ZKP Presentation Threat Model Considerations
+The threat model for these protocols are similar to that of [W3C Decentralized Identities Threat Model](https://github.com/w3c-cg/threat-modeling/blob/main/models/decentralized-identities.md) -- a general threat model for decentralized identity architectures. ZKP Presentation implementations should consider:
 
 - Linkability (c.f. LINDDUN Threats)
     - Persistent Pseudonymity if implemented off-chain with verifier-provided `nullifierSeed`

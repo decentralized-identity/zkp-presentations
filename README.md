@@ -1,8 +1,8 @@
-# Self-Attestation via Zero-Knowledge Proofs for Anonymous Authentication
+# Presentation via Zero-Knowledge Proofs for Anonymous Authentication
 
 ## About
 
-Repository for [DIF Crypto WG](https://github.com/decentralized-identity/crypto-wg) work item, [Self-Attestation via Zero-Knowledge Proofs for Anonymous Authentication](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/self_attestation_via_zkps.md).
+Repository for [DIF Crypto WG](https://github.com/decentralized-identity/crypto-wg) work item, [Presentation via Zero-Knowledge Proofs for Anonymous Authentication](https://github.com/decentralized-identity/crypto-wg/blob/main/work_items/self_attestation_via_zkps.md).
 
 ## Drafts
 
